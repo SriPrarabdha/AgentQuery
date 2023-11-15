@@ -1,0 +1,10 @@
+__pycache__
+.env
+.venv
+
+.coverage
+.pytest_cache
+
+.DS_Storage
+.idea/*
+poetry.lock

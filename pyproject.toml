@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "database-ai-agent"
+version = "0.1.0"
+description = ""
+authors = ["Prarabdha <sriprarabdha2004@gmail.com>"]
+readme = "README.md"
+packages = [{include = "database_ai_agent"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+openai = "^1.2.4"
+psycopg2-binary = "^2.9.9"
+argparse = "^1.4.0"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+start = "database_ai_agent.main:main"
