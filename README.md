@@ -11,9 +11,10 @@ The codebase is powered by GPT-4, Assistance API, AutoGen, Postgres, and Guidanc
 It's the first of many multi-agent applications that utilize LLMs (large language models) to enable reasoning and decision making with reduced need for explicit rules or logic.
 
 ## 💻 Setup 💻
-- **Read the codebase first**. Remember, this is an experiment and learning tool. It's not meant to be a framework or library.
-- Run `git branch -a` to view all branches. Each branch is a video in the series.
-  - `git checkout <branch-name>` you want to view.
+- **Read the codebase first**. 
+- 
+- Run `git clone https://github.com/SriPrarabdha/AgentQuery` to clone the repo on your local machine
+
 - `poetry install`
 - `cp .env.sample .env`
 - Fill out `.env` with your postgres url and openai api key
